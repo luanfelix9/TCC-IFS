@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*formulário*/
+.col-md-12 h1 {
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.col-md-12 h1::before {
+    margin-left: 33%;
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 10rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.funcionario h5 {
+    position: relative;
+}
+
+.funcionario h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 8rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.cpf h5 {
+    position: relative;
+}
+
+.cpf h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 3.5rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.senha h5 {
+    position: relative;
+}
+
+.senha h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 4.5rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.data h5 {
+    position: relative;
+}
+
+.data h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 10.5rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.endereco h5 {
+    position: relative;
+}
+
+.endereco h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 6.5rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.cidade h5 {
+    position: relative;
+}
+
+.cidade h5::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 5rem;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.color {
+    background: linear-gradient(90deg, #f126d6e0, #10d3f5);
+}
+
+.color img{
+    width: 10%;
+    margin-left: 2rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.navbar-toggler {
+    border-color: none;
+}
+
+.navbar-toggler {
+    color: aliceblue;
+}
+
+.modal {
+    width: 400px;
+}
+
+.modal-content {
+    width: 400px;
+}
+
+.modal-title {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: .5rem;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    border: none;
+    margin-top: .5rem;
+}
+
+.list-group-item:hover{
+    color: black;
+}
+
+.list-group a {
+    text-decoration: none;
+}
+
+.bi {
+    font-size: 1.2rem;
+}
+
+.btn-secondary a {
+    text-decoration: none;
+    color: rgba(250, 245, 245, 0.767);
+}
+
+.modal-content {
+    background: linear-gradient(45deg, #f126d6e0, #10d3f5);
+}
+
+.modal-header img{
+    width: 20%;
+}
